@@ -8,6 +8,7 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common ConquerOS stuff.
 $(call inherit-product, vendor/conquer/config/common.mk)
+CONQUER_BUILD_TYPE := OFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Bootanimation
